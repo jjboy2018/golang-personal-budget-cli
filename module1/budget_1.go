@@ -1,17 +1,13 @@
 package module1
 
-import (
-	"fmt"
-)
-
 // Budget stores budget information
-Budget struct {
-	Max float32 
+type Budget struct {
+	Max   float32
 	Items []Item
 }
 
 // Item stores item information
-Item struct{
+type Item struct {
 	Description string
-	Price float32
+	Price       float32
 }
